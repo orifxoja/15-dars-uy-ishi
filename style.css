@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: brown;
+}
+.p {
+  color: black;
+}
+h1 {
+  text-align: center;
+  font-size: 50px;
+}
+.container {
+  max-width: 1440px;
+  margin: 0 100px;
+}
+.o {
+  max-width: 1440px;
+  margin: 0 200px;
+}
+.parent-a {
+  display: flex;
+  justify-content: space-around;
+}
+.parent-img {
+  background-color: black;
+  width: 300px;
+  height: 280px;
+  text-align: center;
+  color: white;
+  margin-top: 30px;
+}
+h3 {
+  margin-top: 10px;
+}
+p {
+  margin-top: 10px;
+}
+.parent-hammasi {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+}
